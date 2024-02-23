@@ -42,6 +42,10 @@ public class HibernateUtil {
                 ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
                         .applySettings(configuration.getProperties()).build();
 
+
+                /*SessionFactory is responsible for reading the hibernate configuration parameters and connecting to the database.
+                 Once it’s created, it should be kept for later use. You would need one SessionFactory object per database using
+                 a separate configuration file.*/
                 sessionFactory = configuration.buildSessionFactory(serviceRegistry);
             } catch (Exception e) {
                 e.printStackTrace();
