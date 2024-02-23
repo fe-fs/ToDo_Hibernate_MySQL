@@ -1,3 +1,9 @@
+/*Modulo 05 - Assignment
+ * Java Todo List Application with Hibernate and MySQL database
+ * Name: Fernanda Frederico Ribeiro da Silva
+ * Class: Software Development II CEN-4025C-24671
+ * Professor: Walauskis
+ */
 import java.util.Properties;
 
 import org.hibernate.SessionFactory;

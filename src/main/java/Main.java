@@ -1,3 +1,9 @@
+/*Modulo 05 - Assignment
+ * Java Todo List Application with Hibernate and MySQL database
+ * Name: Fernanda Frederico Ribeiro da Silva
+ * Class: Software Development II CEN-4025C-24671
+ * Professor: Walauskis
+ */
 import org.hibernate.SessionFactory;
 
 import java.util.Scanner;
@@ -14,7 +20,7 @@ public class Main {
 
         //menu
         while (true) {
-            System.out.println("1. Add a to-do item");
+            System.out.println("\n1. Add a to-do item");
             System.out.println("2. Delete a to-do item");
             System.out.println("3. View to-do items");
             System.out.println("4. Exit");
